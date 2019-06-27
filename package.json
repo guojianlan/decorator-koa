@@ -1,0 +1,23 @@
+{
+  "name": "decorator-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "7.1.4",
+    "koa": "2.7.0",
+    "koa-router": "7.4.0",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@types/glob": "7.1.1",
+    "@types/koa": "2.0.48",
+    "@types/koa-router": "7.0.41"
+  }
+}

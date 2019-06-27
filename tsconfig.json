@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2017",
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "declaration": false,
+    //   "declarationDir":"./types",
+      "experimentalDecorators": true,
+      "sourceMap": false,
+      "outDir": "./dist", // TS文件编译后会放入到此文件夹内
+      "rootDir":"./src",
+      // "noUnusedLocals": true, 定义未使用报错
+      "pretty": true,
+      "baseUrl": ".",
+      "preserveSymlinks":true,
+      "typeRoots": [
+          "./node_modules/@types/",
+          "./types/**/*"
+      ],
+      "paths": {
+          "*": [
+              "*"
+            //   "./node_modules/@types/*",
+            //   "src/generated/*"
+          ]
+      },
+  },
+  "include": [
+      "./src/**/*",
+      "./types/**/*.ts"
+  ],
+  "exclude": [
+      "./node_modules"
+  ]
+}
